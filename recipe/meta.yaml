@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  - git_url: https://github.com/danlipsa/tomviz
-    git_rev: paraview_upgrade
+  - git_url: https://github.com/OpenChemistry/tomviz
+    git_rev: master
     folder: tomviz
   # Submodules updated in build.sh: pybind11
 
